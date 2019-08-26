@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.row {
+  padding-bottom: 30px;
+}
+
+div.header-section {
+  width: 100%;
+  height: 90vh;
+}
+
+div.items {
+  color: #b24bf3;
+  margin-top: 50px;
+}
+
+button.download-btn {
+  background-color: #b24bf3;
+  color: blanchedalmond;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 35px;
+  border-radius: 30px;
+}
+
+button.use-btn {
+  background-color: #b24bf3;
+  color: blanchedalmond;
+  border: 3px solid #fff;
+  border-radius: 30px;
+}
+
+div.blank {
+  width: 100%;
+  height: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+a.navigation {
+  color: #fff;
+}
+
+div.right-side {
+  background: url("./images/attachments/Group 1107.png");
+  background-color: #b24bf3;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+div.scooter {
+  display: contents;
+}
+
+div.motto {
+  position: relative;
+  top: 20%;
+  left: 0;
+}
+
+img.scooty {
+  height: 106px;
+  position: absolute;
+  left: 80px;
+  top: 88px;
+}
+
+img.grass {
+  position: relative;
+  top: 30px;
+  z-index: -1;
+}
+
+div.motto-elements {
+  max-width: 1019px;
+  box-shadow: 5px 5px 20px;
+  border-radius: 200px;
+}
+
+div.motto h3 {
+  font-weight: 600;
+  color: #b24bf3;
+}
+
+div.motto h5 {
+  color: #d7a1f9;
+}
+
+div.tag-line {
+  margin-top: 150px;
+  display: block;
+  margin-left: 42%;
+}
+
+h1.tag-line {
+  color: #b24bf3;
+}
+
+div.dots {
+  display: flex;
+  max-width: 250px;
+  justify-content: space-evenly;
+}
+
+img.dots {
+  height: 15px;
+}
+
+img.no-shadow {
+  width: 80%;
+  z-index: -1;
+}
+
+div.working-right,
+div.working-left {
+  height: 100vh;
+  padding-top: 100px;
+}
+
+h1.working-right,
+h1.working-left {
+  color: #b24bf3;
+}
+
+h4.working-right,
+h4.working-left {
+  color: #d7a1f9;
+}
+
+div.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img.ball {
+  padding: 15px;
+}
+
+div.download-background {
+  background-image: url("./images/attachments/Path 1192.png");
+  z-index: -1;
+}
+
+div.dots {
+  display: flex;
+  max-width: 600px;
+  justify-content: center;
+}
+
+div.icon-row {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+div.icon {
+  padding: 3px;
+  max-width: 200px;
+  height: 70px;
+  margin: 20px;
+  border-radius: 15px;
+  border: 2px solid #d7a1f9;
+}
+
+h2.store-name {
+  font-size: 0.9rem;
+}
+
+h2.store-name {
+  font-size: 1.6rem;
+}
+
+h2.play-name {
+  font-size: 1.4rem;
+}
+
+h1.property-title {
+  text-align: center;
+  color: #b24bf3;
+}
+
+img.carad {
+  margin: auto;
+  width: 120px;
+  height: 100px;
+}
+
+div.card {
+  box-shadow: 0 0 7px 2px;
+  border-radius: 7px;
+}
+
+div.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: initial;
+  line-height: 2rem;
+}
+
+div.animation {
+  padding-bottom: 0;
+}
+
+/* ################################################################## */
+/* Mobile View */
+@media (max-width: 999px) {
+  div.items {
+    margin-top: 20px;
+  }
+
+  div.right-side {
+    background: url("./images/attachments/Group 1107.png");
+    background-color: #b24bf3;
+    border-radius: 0;
+  }
+
+  nav.links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  div.scooter {
+    display: flex;
+    justify-content: center;
+  }
+
+  div.motto h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+  }
+
+  div.motto h5 {
+    font-size: 15px;
+  }
+
+  img.scooty {
+    height: 106px;
+    position: absolute;
+    left: 4px;
+    top: 58px;
+  }
+
+  img.grass {
+    position: relative;
+    top: 30px;
+    z-index: -1;
+  }
+
+  div.tag-line {
+    margin-left: auto;
+  }
+
+  img.scooter {
+    width: 250px;
+    height: 360px;
+  }
+
+  div.icon-row {
+    margin: auto;
+    display: flex;
+  }
+
+  div.icon {
+    text-align: center;
+    padding: 3px;
+    max-width: 200px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 2px solid #d7a1f9;
+  }
+
+  h1.property-title {
+    max-width: 250px;
+    font-size: 30px;
+  }
+
+  div.card {
+    max-width: 250px;
+  }
+}
