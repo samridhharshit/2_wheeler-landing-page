@@ -232,10 +232,10 @@ img.footer-image {
 /* ################################################################## */
 /* Mobile View */
 @media (max-width: 999px) {
-
+/* 
   html {
     overflow-x: hidden;
-  }
+  } */
 
   div.items {
     margin-top: 20px;
