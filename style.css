@@ -3,6 +3,7 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: visible;
 }
 
 body {
@@ -196,6 +197,10 @@ h2.play-name {
   font-size: 1.4rem;
 }
 
+div.properties-section {
+  justify-content: center;
+}
+
 h1.property-title {
   text-align: center;
   color: #b24bf3;
@@ -232,11 +237,6 @@ img.footer-image {
 /* ################################################################## */
 /* Mobile View */
 @media (max-width: 999px) {
-/* 
-  html {
-    overflow-x: hidden;
-  } */
-
   div.items {
     margin-top: 20px;
   }
@@ -305,7 +305,7 @@ img.footer-image {
     text-align: center;
     padding: 3px;
     max-width: 200px;
-    height: 170px;
+    height: 70px;
     margin: 20px;
     border-radius: 15px;
     border: 2px solid #d7a1f9;
@@ -323,3 +323,5 @@ img.footer-image {
     height: 0;
   }
 }
+
+
