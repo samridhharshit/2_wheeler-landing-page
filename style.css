@@ -73,6 +73,7 @@ img.grass {
   position: relative;
   top: 30px;
   z-index: -1;
+  max-width: -webkit-fill-available;
 }
 
 div.motto-elements {
@@ -91,12 +92,12 @@ div.motto h5 {
 }
 
 div.tag-line {
-  margin-top: 150px;
-  display: block;
-  margin-left: 42%;
+  padding-top: 200px;
+  margin-top: auto;
 }
 
 h1.tag-line {
+  text-align: center;
   color: #b24bf3;
 }
 
@@ -104,6 +105,7 @@ div.dots {
   display: flex;
   max-width: 250px;
   justify-content: space-evenly;
+  margin: auto;
 }
 
 img.dots {
@@ -182,6 +184,7 @@ h2.play-name {
 h1.property-title {
   text-align: center;
   color: #b24bf3;
+  text-align: -webkit-center;
 }
 
 img.carad {
@@ -207,9 +210,18 @@ div.animation {
   padding-bottom: 0;
 }
 
+img.footer-image {
+  max-width: -webkit-fill-available;
+}
+
 /* ################################################################## */
 /* Mobile View */
 @media (max-width: 999px) {
+
+  body {
+   max-width: fit-content;
+  }
+
   div.items {
     margin-top: 20px;
   }
@@ -254,7 +266,14 @@ div.animation {
   }
 
   div.tag-line {
-    margin-left: auto;
+    margin: auto;
+    text-align: center;
+    margin-top: 20vh;
+  }
+
+  div.dots {
+    max-width: fit-content;
+    margin: auto;
   }
 
   img.scooter {
@@ -278,11 +297,14 @@ div.animation {
   }
 
   h1.property-title {
-    max-width: 250px;
     font-size: 30px;
   }
 
   div.card {
     max-width: 250px;
+    margin: auto;
+  }
+  div.col {
+    height: 0;
   }
 }
