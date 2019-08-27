@@ -6,6 +6,12 @@ html {
   overflow: visible;
 }
 
+a.btn {
+  background-color: #b24bf3;
+  color: antiquewhite;
+  border-radius: 20px;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -100,11 +106,11 @@ div.motto-elements {
 
 div.motto h3 {
   font-weight: 600;
-  color: #b24bf3;
+  color: #3e155e;
 }
 
 div.motto h5 {
-  color: #d7a1f9;
+  color: gray;
 }
 
 div.tag-line {
@@ -114,7 +120,7 @@ div.tag-line {
 
 h1.tag-line {
   text-align: center;
-  color: #b24bf3;
+  color: #3e155e;
 }
 
 div.dots {
@@ -141,12 +147,12 @@ div.working-left {
 
 h1.working-right,
 h1.working-left {
-  color: #b24bf3;
+  color: #3e155e;
 }
 
 h4.working-right,
 h4.working-left {
-  color: #d7a1f9;
+  color: gray;
 }
 
 div.images {
@@ -182,7 +188,7 @@ div.icon {
   height: 70px;
   margin: 20px;
   border-radius: 15px;
-  border: 2px solid #d7a1f9;
+  border: 2px solid #3e155e;
 }
 
 h2.store-name {
@@ -203,7 +209,7 @@ div.properties-section {
 
 h1.property-title {
   text-align: center;
-  color: #b24bf3;
+  color: #3e155e;
   text-align: -webkit-center;
 }
 
@@ -308,7 +314,7 @@ img.footer-image {
     height: 70px;
     margin: 20px;
     border-radius: 15px;
-    border: 2px solid #d7a1f9;
+    border: 2px solid #3e155e;
   }
 
   h1.property-title {
